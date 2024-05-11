@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I'm Dinesh, A Penetration Tester who has experience on web application security (DAST). Blogging about my activity in TryHackMe, HackTheBox and CTFs.
+
+![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/d1nesh.png){: .normal}
