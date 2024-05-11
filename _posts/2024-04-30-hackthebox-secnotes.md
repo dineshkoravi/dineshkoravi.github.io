@@ -1,14 +1,12 @@
 ---
 title: HackTheBox - Secnotes
+description: SecNotes is a medium difficulty machine, which highlights the risks associated with weak password change mechanisms, lack of CSRF protection and insufficient validation of user input. It also teaches about Windows Subsystem for Linux enumeration. 
 date: 2024-04-30 11:50:00 +0530
 categories: [HackTheBox]
 tags: [hackthebox, Medium]
 image:
   path: /assets/img/headers/htb_secnotes.webp
 ---
-## Machine Info
-
-SecNotes is a medium difficulty machine, which highlights the risks associated with weak password change mechanisms, lack of CSRF protection and insufficient validation of user input. It also teaches about Windows Subsystem for Linux enumeration. 
 
 ## Enumeration
 Spawning the machine and adding the IP to `/etc/hosts` as *secnotes.htb*. First i will try to do basic scan of all the open ports and then do advanced scan on the open ports, using nmap.

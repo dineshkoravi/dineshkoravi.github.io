@@ -1,18 +1,15 @@
 ---
 title: HackTheBox - Jeeves
+description: Jeeves is not overly complicated, however it focuses on some interesting techniques and provides a great learning experience. As the use of alternate data streams is not very common, some users may have a hard time locating the correct escalation path.
 date: 2024-05-01 11:10:00 +0530
 categories: [HackTheBox]
 tags: [hackthebox, Medium]
 image:
   path: /assets/img/headers/htb_jeeves.webp
 ---
-## Machine info
-About Jeeves
 
-Jeeves is not overly complicated, however it focuses on some interesting techniques and provides a great learning experience. As the use of alternate data streams is not very common, some users may have a hard time locating the correct escalation path.
-
-# Enumeration
-## NMap
+## Enumeration
+### NMap
 Now, adding IP to /etc/hosts as jeeves.htb and starting with nmap scan
 
 ```bash
@@ -68,7 +65,7 @@ Nmap done: 1 IP address (1 host up) scanned in 50.22 seconds
 1. There is an old askjeeves search engine copy, running on port 80. which has no functionality.
 2. Hence, I have triggered directory searching on both port 80 and 50000. 
 
-# Gobuster
+### Gobuster
 ```bash
 $ gobuster dir -u http://jeeves.htb:50000/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt 
 ===============================================================
