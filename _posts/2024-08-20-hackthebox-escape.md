@@ -425,7 +425,9 @@ This will try to add the administrator session to the current session. and it fa
 
 We got the NTLM hash. We can login with NTLM hash using evil-winrm.
 
-Alternatively, we can use `certipy` tool as well to get NTLM hash as mentioned here: [https://0xdf.gitlab.io/2023/06/17/htb-escape.html#abuse-template](https://0xdf.gitlab.io/2023/06/17/htb-escape.html#abuse-template)
+Alternatively, we can use `certipy` tool as well to get NTLM hash as mentioned here: 
+
+[https://0xdf.gitlab.io/2023/06/17/htb-escape.html#abuse-template](https://0xdf.gitlab.io/2023/06/17/htb-escape.html#abuse-template)
 
 ```console
 $ evil-winrm -i 10.10.11.202 -u Administrator -H A52F78E4C751E5F5E17E1E9F3E58F4EE
