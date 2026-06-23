@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-02-26T13:59:22.270+05:30
-modified: 2026-06-22T08:49:54.318+05:30
+modified: 2026-06-23T12:11:45.732+05:30
 ---
 
-simple asp file
+Simple asp file
 
 ```asp
 <%

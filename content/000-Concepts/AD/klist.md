@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-04-02T16:18:30.257+05:30
-modified: 2026-06-21T20:11:27.128+05:30
+modified: 2026-06-23T12:08:14.952+05:30
 ---
 
-manage tickets.
+Manage tickets.
 
 checking if the ticket is imported to local shell.
 

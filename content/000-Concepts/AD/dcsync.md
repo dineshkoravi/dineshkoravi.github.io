@@ -1,12 +1,12 @@
 ---
 publish: true
 created: 2026-01-24T16:14:55.893+05:30
-modified: 2026-06-21T20:10:03.328+05:30
+modified: 2026-06-23T12:07:37.220+05:30
 ---
 
-run with shell of DCsync privileges account or higher group accounts
+Run with shell of DCsync privileges account or higher group accounts
 
-Key Rights to Look For:
+**Key Rights to Look For:**
 
 To perform a DCSync attack, an account must have the following rights on the Domain Object: 
 

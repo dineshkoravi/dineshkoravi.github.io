@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-03-10T01:52:10.439+05:30
-modified: 2026-06-21T19:51:54.060+05:30
+modified: 2026-06-23T12:03:40.716+05:30
 ---
 
 Active Directory Certificate Services
@@ -23,7 +23,7 @@ openssl s_client -showcerts -connect 10.10.11.202:3269 | openssl x509 -noout -te
 [SNIP] CN=sequel-DC-CA [SNIP]
 ```
 
-<https://github.com/GhostPack/Certify?tab=readme-ov-file#example-walkthrough>
+Certify Tool Repo -<https://github.com/GhostPack/Certify?tab=readme-ov-file#example-walkthrough>
 
 # finding vulnerabilities
 
