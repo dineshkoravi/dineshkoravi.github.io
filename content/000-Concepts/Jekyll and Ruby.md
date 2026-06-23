@@ -1,8 +1,10 @@
 ---
 publish: true
 created: 2026-01-24T16:14:55.893+05:30
-modified: 2026-06-22T09:00:24.844+05:30
+modified: 2026-06-23T12:16:05.420+05:30
 ---
+
+This is related to my github blog.
 
 ```
 (install ruby from github sometimes as apt does not have latest version)

@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-02-17T14:45:12.178+05:30
-modified: 2026-06-22T09:01:27.008+05:30
+modified: 2026-06-23T12:17:18.348+05:30
 ---
 
 <https://wiki.archlinux.org/title/Port_knocking>

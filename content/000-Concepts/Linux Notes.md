@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-06-16T18:06:29.416+05:30
-modified: 2026-06-22T08:55:01.567+05:30
+modified: 2026-06-23T12:16:17.176+05:30
 ---
 
 This is note to get to all the kali linux tools usage, web and linux privilege escalation.

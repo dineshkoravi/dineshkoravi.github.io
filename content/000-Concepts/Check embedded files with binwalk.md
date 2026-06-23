@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-02-17T15:59:30.563+05:30
-modified: 2026-06-22T08:58:43.332+05:30
+modified: 2026-06-23T12:14:30.208+05:30
 ---
 
 To check the embedded files within a binary file.
