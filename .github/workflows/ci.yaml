@@ -19,7 +19,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -44,7 +44,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-plugins-
 
-      - run: npm ci
+      - run: npm install
 
       - name: Install Quartz plugins
         run: npx quartz plugin install
@@ -64,7 +64,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - name: Setup Node
