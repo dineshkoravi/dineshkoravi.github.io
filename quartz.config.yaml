@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: "Dinesh's Notes"
+  pageTitleSuffix: " - Dinesh's Notes"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -114,6 +114,14 @@ plugins:
     enabled: true
     options:
       theme: default
+      mode: both
+  - source:
+      name: quartz-themes
+      repo: "https://github.com/saberzero1/quartz-themes.git"
+      subdir: plugin
+    enabled: true
+    options:
+      theme: tokyo-night
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
